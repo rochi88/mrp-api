@@ -21,6 +21,6 @@ urlpatterns = [
     path('', include('accounts.urls')),
     path('api/', include([
         path('', include('accounts.api.urls')),
-        path('', include('leads.api.urls')),
+        #path('', include('leads.api.urls')),
     ])),
 ]

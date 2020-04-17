@@ -12,4 +12,4 @@ urlpatterns = [
     path('employer/register', RegisterEmployerView.as_view(), name='employer-register'),
     path('logout', LogoutView.as_view(), name='logout'),
     path('login', LoginView.as_view(), name='login'),
-]+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+]
